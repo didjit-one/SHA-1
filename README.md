@@ -32,13 +32,18 @@ Performance difference (my program -  lib program): -0.000003 seconds
 
 To use the hashing algorithm in your Rust project, follow these steps:
 
-1. Add the following line to your `Cargo.toml` file:
+1. Open your project's `Cargo.toml` file.
+2. In the `[dependencies]` section, add the following lines:
 
    ```toml
    [dependencies]
- sha1 = "0.10.5" 
- 
- hex = "0.4.3"
+   sha1 = "0.10.5"
+   hex = "0.4.3"
+   ```
+
+   These lines specify the dependencies needed for the hashing algorithm, including the `sha1` crate for the SHA-1 implementation and the `hex` crate for hexadecimal encoding.
+
+3. Save the `Cargo.toml` file to update the dependencies for your project.
 
 ## Code Explanation
 
