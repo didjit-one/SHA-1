@@ -53,21 +53,6 @@ To use the hashing algorithm in your Rust project, follow these steps:
 - `test_multiple_chunks()`: Tests the `my_sha1_hash` function with a message that requires multiple chunks for hashing and verifies the computed hash against an expected hash.
 - `test_performance()`: Measures the performance of the `my_sha1_hash` function compared to a library implementation of SHA-1, providing insights into the execution time difference.
 
-## Running the Program on the site play.rust-lang.org.
-
-To run your code on play.rust-lang.org, you can follow these steps:
-
-Go to the website [play.rust-lang.org](https://play.rust-lang.org/) .
-
-Clear the existing code on the page.
-
-Paste your code into the empty field.
-
-Click the "Run" button.
-
-Your code will be compiled and executed in the output window on the right. The execution result will be displayed in that area.
-
-
 ## Running the Program on the computer
 
 To run the program, execute the following steps:
@@ -81,7 +66,6 @@ To run the program, execute the following steps:
 4. Compile the program by running the command: `cargo build`.
 
 5. Run the program by executing the command: `cargo run`.
-
 
 
 ## License
